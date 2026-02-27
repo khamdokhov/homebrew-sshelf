@@ -4,9 +4,9 @@
 class Sshelf < Formula
   desc "Terminal UI for managing SSH connections"
   homepage "https://gitverse.ru/khamdokhov/sshelf"
-  url "https://gitverse.ru/api/repos/khamdokhov/sshelf/archive/a0dad1f341d15ad00ace19c708f4b591c80b760b.tar.gz"
-  version "0.1.0"
-  sha256 "d8e5342876cee15ab6413c41d6bc014daf92e0a534d135e8dd544a1d76ca6a93"
+  url "https://gitverse.ru/api/repos/khamdokhov/sshelf/archive/000432cd662261ea6d8000e84d2e73f4d2aeb8c3.tar.gz"
+  version "0.2.0"
+  sha256 "9a5dba97dcdf624106435c6e53eea71b92a23aa63c73db86a7366664c8390b76"
   license "MIT"
 
   depends_on "go" => :build
@@ -17,6 +17,6 @@ class Sshelf < Formula
   end
 
   test do
-    assert_match "0.1.0", shell_output("#{bin}/sshelf -v")
+    assert_match "0.2.0", shell_output("#{bin}/sshelf -v")
   end
 end
