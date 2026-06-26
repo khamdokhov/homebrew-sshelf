@@ -6,7 +6,7 @@ class Sshelf < Formula
   homepage "https://github.com/khamdokhov/sshelf"
   url "https://github.com/khamdokhov/sshelf/archive/refs/tags/v0.2.1.tar.gz"
   version "0.2.1"
-  sha256 "f58252ed81575e3e4585e24cba732436ee2a36390db147027133688f5553e6db"
+  sha256 "32153dc73ba15ecb1724d0f04bc839d2cd7aacb36266f709a1df5e5c56252c26"
   license "MIT"
 
   depends_on "go" => :build
