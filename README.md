@@ -1,11 +1,11 @@
 # homebrew-sshelf
 
-Homebrew tap for [sshelf](https://gitverse.ru/khamdokhov/sshelf) — terminal UI for managing SSH connections.
+Homebrew tap for [sshelf](https://github.com/khamdokhov/sshelf) — terminal UI for managing SSH connections.
 
 ## Install
 
 ```bash
-brew tap khamdokhov/sshelf https://gitverse.ru/khamdokhov/homebrew-sshelf
+brew tap khamdokhov/sshelf
 brew install sshelf
 ```
 
@@ -21,3 +21,7 @@ brew upgrade sshelf
 brew uninstall sshelf
 brew untap khamdokhov/sshelf
 ```
+
+## From source
+
+To build from source instead, see the [sshelf README](https://github.com/khamdokhov/sshelf#install).
