@@ -2,6 +2,8 @@
 
 Homebrew tap for [sshelf](https://github.com/khamdokhov/sshelf) — terminal UI for managing SSH connections.
 
+macOS and Linux via Homebrew; on Windows build from source ([install guide](https://github.com/khamdokhov/sshelf#install)).
+
 ## Install
 
 ```bash
